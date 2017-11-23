@@ -46,7 +46,7 @@ end
 print "Enter a string: "
 string = gets.chomp
 puts case
-when string.match(/\d/)
+when string.match(/\d/)d
   'String has numbers'
 when string.match(/[a-zA-Z]/)
   'String has letters'
