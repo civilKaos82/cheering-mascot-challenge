@@ -1,5 +1,7 @@
 # Get input from the user:  the cheer
 def call_out_cheer
+  cheer = gets.chomp
+  # return cheer
 end
 
 # Determine the mascot's response based on the argument
@@ -9,6 +11,7 @@ end
 
 # Print the argument passed to the method
 def display(response)
+  puts response
 end
 
 # This method will control the flow of the application,
